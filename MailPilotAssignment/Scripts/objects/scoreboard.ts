@@ -9,8 +9,8 @@
 
         // CONSTRUCTOR +++++++++++++++++++
         constructor() {
-            this.livesLabel = new createjs.Text("Lives:", "40px Consolas", "#FFFF00");
-            this.scoreLabel = new createjs.Text("Score:", "40px Consolas", "#FFFF00");
+            this.livesLabel = new createjs.Text("LIVES:", "50px Consolas", "#BFFF00");
+            this.scoreLabel = new createjs.Text("YOUR SCORE:", "50px Consolas", "#BFFF00");
             this.scoreLabel.x = 350;
             stage.addChild(this.livesLabel);
             stage.addChild(this.scoreLabel);
